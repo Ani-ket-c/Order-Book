@@ -1,0 +1,14 @@
+build/
+.vscode/
+.github/
+.sixth/
+.publish/
+.DS_Store
+
+simulation_results.csv
+latency_report.txt
+dashboard_run.log
+dashboard_run.err
+
+Generate_Orders/orders.txt
+googletest/

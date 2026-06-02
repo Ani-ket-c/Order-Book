@@ -1,0 +1,20 @@
+# clangd configuration for Limit Order Book project
+Diagnostics:
+  UnusedIncludes: None
+  MissingIncludes: None
+
+CompileFlags:
+  Add: 
+    # Project include directories
+    - -ILimit_Order_Book
+    - -IGenerate_Orders
+    - -IProcess_Orders
+    - -IGateway
+    - -Itest
+    # C++ standard and compiler flags
+    - -std=c++20
+    - -Wall
+    - -Wextra
+    - -Wno-unused-parameter
+    - -Wno-missing-field-initializers
+  CompilationDatabase: build
